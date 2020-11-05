@@ -93,11 +93,13 @@ $('#myModal88').modal('show');
         <a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
     </div>
     <div class="w3l_logo">
-        <h1><a href="index.html">Wabisabi<span>cosmetics</span></a></h1>
+        <h1><a href="index.html">Wabisabi<span>cosmetics</span></a></h1> 
+  
     </div>
     <div class="search">
         <input class="search_box" type="checkbox" id="search_box">
         <label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
+      
         <div class="search_form">
             <form action="#" method="post">
                 <input type="text" name="Search" placeholder="Search...">
