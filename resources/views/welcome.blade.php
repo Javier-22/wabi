@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 	  <div class="carousel-inner">
   
 		<div class="item active">
-		  <img src="images/S1.png" alt="Los Angeles" style="width:100%;">
+		  <img src="images/e1.png" alt="Los Angeles" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>Los Angeles</h3>
 			<p>LA is always so much fun!</p>
@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
 		</div>
   
 		<div class="item">
-		  <img src="images/S2.png" alt="Chicago" style="width:100%;">
+		  <img src="images/e2.png" alt="Chicago" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>Chicago</h3>
 			<p>Thank you, Chicago!</p>
@@ -66,35 +66,33 @@ jQuery(document).ready(function($) {
 		</div>
 	  
 		<div class="item">
-		  <img src="images/S3.png" alt="New York" style="width:100%;">
+		  <img src="images/e3.png" alt="New York" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>New York</h3>
 			<p>We love the Big Apple!</p>
 		  </div>
 		</div>
 		<div class="item">
-			<img src="images/S4.png" alt="New York" style="width:100%;">
+			<img src="images/e4.png" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="images/S5.png" alt="New York" style="width:100%;">
+			<img src="images/e5.png" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="images/S6.png" alt="New York" style="width:100%;">
+			<img src="images/e6.png" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
-
-	
 	  </div>
   
 	  <!-- Left and right controls -->
