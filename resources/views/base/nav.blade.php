@@ -137,22 +137,28 @@ $('#myModal88').modal('show');
                 <li class="active"><a href="{{ route('welcome') }}" class="act">Home</a></li>	
                 <!-- Mega Menu -->
                 <li class="dropdown">
-                    <a href="{{ route('product') }}" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+                    <a href="{{ route('product') }}" class="dropdown-toggle" data-toggle="dropdown">PRODUCTOS<b class="caret"></b></a>
                     <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                             <div class="col-sm-3">
                                 <ul class="multi-column-dropdown">
-                                    <h6>Clothing</h6>
-                                    <li><a href="{{ route('productos.productca1') }}">Dresses<span>New</span></a></li>
-                                    <li><a href="{{ route('productos.productca2') }}">Sweaters</a></li>
+                                    <h6><a href="#" {{ route('welcome') }}" class="act"> BARBER SHOP</a> </h6>
+                                    <li><a href="{{ route('productos.productca1') }}">SERVICIOS<span>New</span></a></li>
+                                   {{--  <li><a href="{{ route('productos.productca2') }}">Sweaters</a></li>
                                     <li><a href="{{ route('productos.productca3') }}">Shorts & Skirts</a></li>
                                     <li><a href="{{ route('productos.productca4') }}">Jeans</a></li>
-                                    <li><a href="{{ route('productos.productca5') }}">Shirts & Tops<span>New</span></a></li>
+                                    <li><a href="{{ route('productos.productca5') }}">Shirts & Tops<span>New</span></a></li> --}}
                                 </ul>
                             </div>
                             <div class="col-sm-3">
                                 <ul class="multi-column-dropdown">
-                                    <h6>Ethnic Wear</h6>
+                                    <h6><a href="#" {{ route('welcome') }}" class="act"> SALON</a> </h6>
+                                    <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
+                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
+                                    <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
+                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
+                                    <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
+                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
                                     <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
                                     <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
                                     <li><a href="{{ route('product') }}"><i>Summer Store</i></a></li>
@@ -160,9 +166,11 @@ $('#myModal88').modal('show');
                             </div>
                             <div class="col-sm-2">
                                 <ul class="multi-column-dropdown">
-                                    <h6>Foot Wear</h6>
+                                    <h6><a href="#" {{ route('welcome') }}" class="act"> COSMETICS</a> </h6>
                                     <li><a href="{{ route('productos.productcc1') }}">Flats</a></li>
                                     <li><a href="{{ route('productos.productcc2') }}">Sandals</a></li>
+                                    <li><a href="{{ route('productos.productcc3') }}">Boots</a></li>
+                                    <li><a href="{{ route('productos.productcc4') }}">Heels</a></li>
                                     <li><a href="{{ route('productos.productcc3') }}">Boots</a></li>
                                     <li><a href="{{ route('productos.productcc4') }}">Heels</a></li>
                                 </ul>
