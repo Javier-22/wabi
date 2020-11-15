@@ -1,38 +1,5 @@
-@extends('vieww.index')
-@section('script')
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-    function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script src="js/jquery.min.js"></script>
-<!-- //js -->
-<!-- countdown -->
-<link rel="stylesheet" href="css/jquery.countdown.css" />
-<!-- //countdown -->
-<!-- cart -->
-<script src="js/simpleCart.min.js"></script>
-<!-- cart -->
-<!-- for bootstrap working -->
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-
-<!-- //for bootstrap working -->
-<link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smooth-scrolling -->
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-    $(".scroll").click(function(event){		
-        event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-    });
-});
-</script>
-
+@extends('base.index')
 @section('title','home')
-@include('vieww.nav')
 {{-- <script>
     $('#myModal88').modal('show');
     </script> --}}
@@ -50,7 +17,7 @@ jQuery(document).ready(function($) {
 	  <div class="carousel-inner">
   
 		<div class="item active">
-		  <img src="images/e1.png" alt="Los Angeles" style="width:100%;">
+		  <img src="#" alt="Los Angeles" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>Los Angeles</h3>
 			<p>LA is always so much fun!</p>
@@ -58,7 +25,7 @@ jQuery(document).ready(function($) {
 		</div>
   
 		<div class="item">
-		  <img src="images/e2.png" alt="Chicago" style="width:100%;">
+		  <img src="#" alt="Chicago" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>Chicago</h3>
 			<p>Thank you, Chicago!</p>
@@ -66,21 +33,21 @@ jQuery(document).ready(function($) {
 		</div>
 	  
 		<div class="item">
-		  <img src="images/e3.png" alt="New York" style="width:100%;">
+		  <img src="#" alt="New York" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>New York</h3>
 			<p>We love the Big Apple!</p>
 		  </div>
 		</div>
 		<div class="item">
-			<img src="images/e4.png" alt="New York" style="width:100%;">
+			<img src="#" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="images/e5.png" alt="New York" style="width:100%;">
+			<img src="#" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
@@ -1215,4 +1182,3 @@ jQuery(document).ready(function($) {
 <!-- //top-brands -->
   </section>
 @endsection
-

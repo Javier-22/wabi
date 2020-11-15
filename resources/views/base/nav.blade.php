@@ -1,4 +1,4 @@
-
+@include('base.template')
 <!-- header -->
 <div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
 aria-hidden="true">
@@ -153,7 +153,7 @@ $('#myModal88').modal('show');
                                 <ul class="multi-column-dropdown">
                                     <h6>Ethnic Wear</h6>
                                     <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
-                                    <li><a href=""{{ route('productos.productcb2') }}"">Sarees<span>New</span></a></li>
+                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
                                     <li><a href="{{ route('product') }}"><i>Summer Store</i></a></li>
                                 </ul>
                             </div>
@@ -176,9 +176,9 @@ $('#myModal88').modal('show');
                         </div>
                     </ul>
                 </li>
-                <li><a href="{{ route('about') }}">About Us</a></li>
+                <li><a href="{{ route('about.about') }}">About Us</a></li>
                 <li><a href="{{ route('welcome') }}" >Short Codes</a></li>
-                <li><a href="{{ route('contact') }}" >Mail Us</a></li>
+                <li><a href="{{ route('contact.contact') }}" >Mail Us</a></li>
             </ul>
         </div>
     </nav>

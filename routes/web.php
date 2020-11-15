@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('welcome','HomeController@index')->name('welcome');
-Route::get('about','AboutController@index')->name('about');
-Route::get('contact','ContactController@index')->name('contact');
+Route::get('about','AboutController@index')->name('about.about');
+Route::get('contact','ContactController@index')->name('contact.contact');
 Route::get('car','CarController@index')->name('car');
 
 
