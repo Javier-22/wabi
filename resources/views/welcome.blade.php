@@ -5,15 +5,15 @@
     </script> --}}
 @section('body-content')
 <div class="container">
+	<!-- Carousel -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	  <!-- Indicators -->
+
 	  <ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		<li data-target="#myCarousel" data-slide-to="1"></li>
 		<li data-target="#myCarousel" data-slide-to="2"></li>
 	  </ol>
-  
-	  <!-- Wrapper for slides -->
+ 
 	  <div class="carousel-inner">
   
 		<div class="item active">
@@ -54,15 +54,14 @@
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="images/e6.png" alt="New York" style="width:100%;">
+			<img src="#" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
 	  </div>
-  
-	  <!-- Left and right controls -->
+
 	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left"></span>
 		<span class="sr-only">Previous</span>
@@ -74,6 +73,45 @@
 	</div>
   </div>
   
+{{-- ############################################################################################################## --}}
+{{-- <div class="banner" id="home1"> --}}
+<div class="container">
+
+<div class="row p-3">
+	<div class="col-sm-6 col-md-4">
+	  <div class="thumbnail">
+		<img src="images/barber.png" alt="...">
+		<div class="caption">
+		  <h3>Thumbnail label</h3>
+		  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est, sequi pariatur natus neque ab ea nulla nesciunt expedita cumque quasi facilis provident eaque? Dolores dignissimos harum rem voluptates eos.</p>
+		  <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+		</div>
+	  </div>
+	</div>
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+		  <img src="images/wabi.png" alt="...">
+		  <div class="caption">
+			<h3>Thumbnail label</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti eos omnis est ad excepturi alias unde quidem.</p>
+			<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+		  <img src="images/salon.png" alt="...">
+		  <div class="caption">
+			<h3>Thumbnail label</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi expedita modi hic rerum dolore animi? Dignissimos, illo. Reiciendis accusamus necessitatibus voluptatibus aperiam nesciunt porro ea totam inventore sunt fuga!</p>
+			<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+		  </div>
+		</div>
+	  </div>
+  </div>
+  
+</div>
+</div>
 
 	{{-- <div class="banner" id="home1">
 		<div class="container">
@@ -83,7 +121,7 @@
 <!-- //banner -->
 
 <!-- banner-bottom -->
-	<div class="banner-bottom">
+	{{-- <div class="banner-bottom">
 		<div class="container">
 			<div class="col-md-5 wthree_banner_bottom_left">
 				<div class="video-img">
@@ -113,8 +151,8 @@
 						});
 						});
 					</script>
-			</div>
-			<div class="col-md-7 wthree_banner_bottom_right">
+			</div> --}}
+			{{-- <div class="col-md-7 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
 						<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home">T-shirts</a></li>
@@ -510,7 +548,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> --}}
 					<!--modal-video-->
 				<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 					<div class="modal-dialog" role="document">
@@ -632,7 +670,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 							</div>
 							<section>
 								<div class="modal-body">
