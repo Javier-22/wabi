@@ -5410,3 +5410,6 @@ td.invert-image a img {
         right: 111px;
     }
 }
+.row.p-3.categ {
+    padding-top: 25px;
+}

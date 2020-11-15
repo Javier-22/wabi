@@ -77,9 +77,9 @@
 {{-- <div class="banner" id="home1"> --}}
 <div class="container">
 
-<div class="row p-3">
+<div class="row p-3 categ">
 	<div class="col-sm-6 col-md-4">
-	  <div class="thumbnail">
+	  <div class="thumbnail img-responsive">
 		<img src="images/barber.png" alt="...">
 		<div class="caption">
 		  <h3>Thumbnail label</h3>
@@ -89,7 +89,7 @@
 	  </div>
 	</div>
 	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
+		<div class="thumbnail img-responsive">
 		  <img src="images/wabi.png" alt="...">
 		  <div class="caption">
 			<h3>Thumbnail label</h3>
@@ -99,7 +99,7 @@
 		</div>
 	  </div>
 	  <div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
+		<div class=" thumbnail img-responsive">
 		  <img src="images/salon.png" alt="...">
 		  <div class="caption">
 			<h3>Thumbnail label</h3>
