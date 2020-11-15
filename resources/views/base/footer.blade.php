@@ -1,6 +1,6 @@
 <!-- footer -->
 <div class="footer">
-    <div class="container">
+    {{-- <div class="container">
         <div class="w3_footer_grids">
             <div class="col-md-3 w3_footer_grid">
                 <h3>Contact</h3>
@@ -37,8 +37,12 @@
                     <li><a href="products.html">Summer Store</a></li>
                     <li><a href="checkout.html">My Cart</a></li>
                 </ul>
-                <h4>Follow Us</h4>
-                <div class="agileits_social_button">
+                <h4>Follow Us</h4> --}}
+                
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                <div class="agileits_social_button " style="text-align: center; letter-spacing: 60px;">
                     <ul>
                         <li><a href="#" class="facebook"> </a></li>
                         <li><a href="#" class="twitter"> </a></li>
@@ -56,9 +60,12 @@
                 <a href="#home1" class="scroll"><img src="images/arrow.png" alt=" " class="img-responsive" /></a>
             </div>
         </div>
+
         <div class="container">
-            <p>&copy; 2016 Women's Fashion. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+            <p>wabi Sabi| <a href="#">2020</a></p>
         </div>
     </div>
 </div>
+</div>
+
 <!-- //footer -->
