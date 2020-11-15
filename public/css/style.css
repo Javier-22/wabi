@@ -5413,3 +5413,7 @@ td.invert-image a img {
 .row.p-3.categ {
     padding-top: 25px;
 }
+.img-categ{
+    height: auto;
+    max-width: 100%;
+}
