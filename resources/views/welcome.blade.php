@@ -79,8 +79,8 @@
 
 <div class="row p-3 categ">
 	<div class="col-sm-6 col-md-4">
-	  <div class="img-categ thumbnail img-responsive">
-		<img src="images/barber.png" alt="...">
+	  <div class="img-responsive">
+		<img class="img-categ" src="images/barber.png" alt="...">
 		<div class="caption">
 		  <h3>Thumbnail label</h3>
 		  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est, sequi pariatur natus neque ab ea nulla nesciunt expedita cumque quasi facilis provident eaque? Dolores dignissimos harum rem voluptates eos.</p>
@@ -89,8 +89,8 @@
 	  </div>
 	</div>
 	<div class="col-sm-6 col-md-4">
-		<div class="img-categ thumbnail img-responsive">
-		  <img src="images/wabi.png" alt="...">
+		<div class="img-responsive">
+		  <img class="img-categ" src="images/wabi.png" alt="...">
 		  <div class="caption">
 			<h3>Thumbnail label</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti eos omnis est ad excepturi alias unde quidem.</p>
@@ -99,8 +99,8 @@
 		</div>
 	  </div>
 	  <div class="col-sm-6 col-md-4">
-		<div class="img-categ  thumbnail img-responsive">
-		  <img src="images/salon.png" alt="...">
+		<div class="img-responsive ">
+		  <img class="img-categ" src="images/salon.png" alt="...">
 		  <div class="caption">
 			<h3>Thumbnail label</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi expedita modi hic rerum dolore animi? Dignissimos, illo. Reiciendis accusamus necessitatibus voluptatibus aperiam nesciunt porro ea totam inventore sunt fuga!</p>
@@ -166,7 +166,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="images/6.jpg" alt=" " class="img-responsive" />
+										<img src="images/6.jpg" alt=" " class="c" />
 										<img src="images/4.jpg" alt=" " class="img-responsive" />
 										<img src="images/5.jpg" alt=" " class="img-responsive" />
 										<img src="images/3.jpg" alt=" " class="img-responsive" />

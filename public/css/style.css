@@ -5414,6 +5414,8 @@ td.invert-image a img {
     padding-top: 25px;
 }
 .img-categ{
-    height: auto;
+    height: 50%;
     max-width: 100%;
+    display:block;
+    margin:auto;
 }
