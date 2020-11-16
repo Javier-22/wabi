@@ -53,4 +53,9 @@ class ProductController extends Controller
     public function indexcc4(){
         return view('productos.productcc4');
     }
+
+       public function indexb(){
+    return view('barberia.index');
+}
+
 }

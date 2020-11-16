@@ -143,7 +143,7 @@ $('#myModal88').modal('show');
                             <div class="col-sm-3">
                                 <ul class="multi-column-dropdown">
                                     <h6><a href="#" {{ route('welcome') }}" class="act"> BARBER SHOP</a> </h6>
-                                    <li><a href="{{ route('productos.productca1') }}">SERVICIOS<span>New</span></a></li>
+                                    <li><a href="{{ route('barberia.index') }}">SERVICIOS<span>New</span></a></li>
                                    {{--  <li><a href="{{ route('productos.productca2') }}">Sweaters</a></li>
                                     <li><a href="{{ route('productos.productca3') }}">Shorts & Skirts</a></li>
                                     <li><a href="{{ route('productos.productca4') }}">Jeans</a></li>

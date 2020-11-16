@@ -35,4 +35,5 @@ Route::get('productcc1','ProductController@indexc1')->name('productos.productcc1
 Route::get('productcc2','ProductController@indexc2')->name('productos.productcc2');
 Route::get('productcc3','ProductController@indexc3')->name('productos.productcc3');
 Route::get('productcc4','ProductController@indexcc4')->name('productos.productcc4');
+Route::get('index','ProductController@indexb')->name('barberia.index');
 
