@@ -2,7 +2,7 @@
 @section('title','about')
 @section('body-content')
 <!-- banner -->
-	<div class="banner6" id="home1">
+	<div class="banner7" id="home1">
 		<div class="container">
 			<h2>Women Salwars<span>up to</span> Flat 40% <i>Discount</i></h2>
 		</div>
