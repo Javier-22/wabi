@@ -82,9 +82,9 @@
 	  <div class="img-responsive">
 		<img class="img-categ" src="images/barber.png" alt="...">
 		<div class="caption">
-		  <h3>Thumbnail label</h3>
-		  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est, sequi pariatur natus neque ab ea nulla nesciunt expedita cumque quasi facilis provident eaque? Dolores dignissimos harum rem voluptates eos.</p>
-		  <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+		  <h3 class="titulo-tiendas"><strong>Barber Shop</strong></h3> <br>
+		  <p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti</p> <br>
+		  <p><a href="{{route('barberia.index')}}" class="buton-tienda">Visitar</a></p>
 		</div>
 	  </div>
 	</div>
@@ -92,9 +92,9 @@
 		<div class="img-responsive">
 		  <img class="img-categ" src="images/wabi.png" alt="...">
 		  <div class="caption">
-			<h3>Thumbnail label</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti eos omnis est ad excepturi alias unde quidem.</p>
-			<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+			<h3 class="titulo-tiendas"><strong>Thumbnail label</strong></h3> <br>
+			<p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti.</p> <br>
+			<p><a href="#" class="buton-tienda">Visitar</a></p>
 		  </div>
 		</div>
 	  </div>
@@ -102,9 +102,9 @@
 		<div class="img-responsive ">
 		  <img class="img-categ" src="images/salon.png" alt="...">
 		  <div class="caption">
-			<h3>Thumbnail label</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi expedita modi hic rerum dolore animi? Dignissimos, illo. Reiciendis accusamus necessitatibus voluptatibus aperiam nesciunt porro ea totam inventore sunt fuga!</p>
-			<p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+			<h3 class="titulo-tiendas"><strong>Thumbnail label</strong></h3> <br>
+			<p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti</p> <br>
+			<p><a href="#" class="buton-tienda">Visitar</a></p>
 		  </div>
 		</div>
 	  </div>

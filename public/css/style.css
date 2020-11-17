@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 
 html,
 body {
@@ -1929,7 +1924,7 @@ h3.other-nw {
 }
 
 .new-products {
-    background: #BEE5E2;
+    background: #FFE5D5;
 }
 
 .w3ls_dresses_grid_left_grid h3 {
@@ -5418,4 +5413,28 @@ td.invert-image a img {
     max-width: 100%;
     display:block;
     margin:auto;
+}
+.titulo-tiendas{
+    text-align: center;
+}
+.buton-tienda{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    border: 1px solid #00a98f;
+    border-radius: 25px;
+    line-height: 36px;  
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.buton-tienda:hover{
+    color: #00a98f;
+    text-decoration: none;
+    background: #FFE5D5;
+} 
+.texto-tiendas{
+    text-align: justify;
+    font-family: cursive;
+    font-size: 15px;
 }
