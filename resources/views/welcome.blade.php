@@ -92,7 +92,7 @@
 		<div class="img-responsive">
 		  <img class="img-categ" src="images/wabi.png" alt="...">
 		  <div class="caption">
-			<h3 class="titulo-tiendas"><strong>Thumbnail label</strong></h3> <br>
+			<h3 class="titulo-tiendas"><strong>SALON</strong></h3> <br>
 			<p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti.</p> <br>
 			<p><a href="#" class="buton-tienda">Visitar</a></p>
 		  </div>
@@ -102,7 +102,7 @@
 		<div class="img-responsive ">
 		  <img class="img-categ" src="images/salon.png" alt="...">
 		  <div class="caption">
-			<h3 class="titulo-tiendas"><strong>Thumbnail label</strong></h3> <br>
+			<h3 class="titulo-tiendas"><strong>COSMETICS</strong></h3> <br>
 			<p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti</p> <br>
 			<p><a href="#" class="buton-tienda">Visitar</a></p>
 		  </div>

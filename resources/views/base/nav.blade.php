@@ -16,8 +16,8 @@ aria-hidden="true">
                     <div class="sap_tabs">	
                         <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
                             <ul>
-                                <li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
-                                <li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
+                                <li class="resp-tab-item" aria-controls="tab_item-0"><span>Iniciar sesíon</span></li>
+                                <li class="resp-tab-item" aria-controls="tab_item-1"><span>Registrate</span></li>
                             </ul>
                             <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
                                 <div class="facts">
@@ -143,7 +143,7 @@ $('#myModal88').modal('show');
                             <div class="col-sm-3">
                                 <ul class="multi-column-dropdown">
                                     <h6><a href="#" {{ route('welcome') }}" class="act"> BARBER SHOP</a> </h6>
-                                    <li><a href="{{ route('barberia.index') }}">SERVICIOS<span>New</span></a></li>
+                                    <li><a href="{{ route('barberia.index') }}">SERVICIOS{{-- <span>New</span> --}}</a></li>
                                    {{--  <li><a href="{{ route('productos.productca2') }}">Sweaters</a></li>
                                     <li><a href="{{ route('productos.productca3') }}">Shorts & Skirts</a></li>
                                     <li><a href="{{ route('productos.productca4') }}">Jeans</a></li>
@@ -153,41 +153,41 @@ $('#myModal88').modal('show');
                             <div class="col-sm-3">
                                 <ul class="multi-column-dropdown">
                                     <h6><a href="#" {{ route('welcome') }}" class="act"> SALON</a> </h6>
+                                    <li><a href="{{ route('productos.productcb1') }}">Servicios</a></li>
+                                  {{--   <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
                                     <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
                                     <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
                                     <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
                                     <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
                                     <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
-                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
-                                    <li><a href="{{ route('productos.productcb1') }}">Salwars</a></li>
-                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li>
-                                    <li><a href="{{ route('product') }}"><i>Summer Store</i></a></li>
+                                    <li><a href=""{{ route('productos.productcb2') }}">Sarees<span>New</span></a></li> --}}
+                                    {{-- <li><a href="{{ route('product') }}"><i>Summer Store</i></a></li> --}}
                                 </ul>
                             </div>
                             <div class="col-sm-2">
                                 <ul class="multi-column-dropdown">
                                     <h6><a href="#" {{ route('welcome') }}" class="act"> COSMETICS</a> </h6>
-                                    <li><a href="{{ route('productos.productcc1') }}">Flats</a></li>
-                                    <li><a href="{{ route('productos.productcc2') }}">Sandals</a></li>
-                                    <li><a href="{{ route('productos.productcc3') }}">Boots</a></li>
-                                    <li><a href="{{ route('productos.productcc4') }}">Heels</a></li>
-                                    <li><a href="{{ route('productos.productcc3') }}">Boots</a></li>
-                                    <li><a href="{{ route('productos.productcc4') }}">Heels</a></li>
+                                    <li><a href="{{ route('productos.productcc1') }}">Comesticos</a></li>
+                                    <li><a href="{{ route('productos.productcc2') }}">Cabello</a></li>
+                                    <li><a href="{{ route('productos.productcc3') }}">Cuerpo & baño</a></li>
+                                    <li><a href="{{ route('productos.productcc4') }}">Perfumeria</a></li>
+                                    <li><a href="{{ route('productos.productcc3') }}">Rostro</a></li>
+                                    <li><a href="{{ route('productos.productcc4') }}">Otro</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <div class="w3ls_products_pos">
-                                    <h4>50%<i>Off/-</i></h4>
-                                    <img src="images/1.jpg" alt=" " class="img-responsive" />
+                                    <h4>20%<i>Off/-</i></h4>
+                                    <img src="images/ad.jpg" alt=" " class="img-responsive" />
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                     </ul>
                 </li>
-                <li><a href="{{ route('about.about') }}">About Us</a></li>
-                <li><a href="{{ route('welcome') }}" >Short Codes</a></li>
-                <li><a href="{{ route('contact.contact') }}" >Mail Us</a></li>
+                <li><a href="{{ route('about.about') }}">Quienes somos</a></li>
+                <li><a href="{{ route('welcome') }}" >Tics de belleza</a></li>
+                <li><a href="{{ route('contact.contact') }}" >Contactenos</a></li>
             </ul>
         </div>
     </nav>
