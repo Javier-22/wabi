@@ -186,7 +186,7 @@ $('#myModal88').modal('show');
                     </ul>
                 </li>
                 <li><a href="{{ route('about.about') }}">Quienes somos</a></li>
-                <li><a href="{{ route('welcome') }}" >Tics de belleza</a></li>
+               {{--  <li><a href="{{ route('welcome') }}" >Tics de belleza</a></li> --}}
                 <li><a href="{{ route('contact.contact') }}" >Contactenos</a></li>
             </ul>
         </div>

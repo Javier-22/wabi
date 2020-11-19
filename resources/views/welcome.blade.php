@@ -17,7 +17,7 @@
 	  <div class="carousel-inner">
   
 		<div class="item active">
-		  <img src="#" alt="Los Angeles" style="width:100%;">
+		  <img src="images/prueba6.png" alt="Los Angeles" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>Los Angeles</h3>
 			<p>LA is always so much fun!</p>
@@ -25,7 +25,7 @@
 		</div>
   
 		<div class="item">
-		  <img src="#" alt="Chicago" style="width:100%;">
+		  <img src="images/prueba6.png" alt="Chicago" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>Chicago</h3>
 			<p>Thank you, Chicago!</p>
@@ -33,28 +33,28 @@
 		</div>
 	  
 		<div class="item">
-		  <img src="#" alt="New York" style="width:100%;">
+		  <img src="images/prueba6.png" alt="New York" style="width:100%;">
 		  <div class="carousel-caption">
 			<h3>New York</h3>
 			<p>We love the Big Apple!</p>
 		  </div>
 		</div>
 		<div class="item">
-			<img src="#" alt="New York" style="width:100%;">
+			<img src="images/prueba6.png" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="#" alt="New York" style="width:100%;">
+			<img src="images/prueba6.png" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
 			</div>
 		  </div>
 		  <div class="item">
-			<img src="#" alt="New York" style="width:100%;">
+			<img src="images/prueba6.png" alt="New York" style="width:100%;">
 			<div class="carousel-caption">
 			  <h3>New York</h3>
 			  <p>We love the Big Apple!</p>
@@ -78,32 +78,32 @@
 <div class="container">
 
 <div class="row p-3 categ">
-	<div class="col-sm-6 col-md-4">
+	<div class="col-sm-6 col-md-3">
 	  <div class="img-responsive">
-		<img class="img-categ" src="images/barber.png" alt="...">
+		<img class="img-categ" src="images/barber.png" alt="..." >
 		<div class="caption">
 		  <h3 class="titulo-tiendas"><strong>Barber Shop</strong></h3> <br>
-		  <p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti</p> <br>
+		  <p class="texto-tiendas">En Barber Shop Wabi Sabi,  ofrecemos servicios para el cuidado del cabello, rostro y barba de aquellos hombres que desean renovar o mantener su imagen.</p> <br>
 		  <p><a href="{{route('barberia.index')}}" class="buton-tienda">Visitar</a></p>
 		</div>
 	  </div>
 	</div>
-	<div class="col-sm-6 col-md-4">
+	<div class="col-sm-6 col-md-6">
 		<div class="img-responsive">
-		  <img class="img-categ" src="images/wabi.png" alt="...">
+		  <img class="img-categ" src="images/prueba3.png" alt="...">
 		  <div class="caption">
 			<h3 class="titulo-tiendas"><strong>SALON</strong></h3> <br>
-			<p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti.</p> <br>
+			<p class="texto-tiendas">Un espacio dedicado a la mujer donde podrán acceder a los más altos estándares de belleza y calidad, con las últimas tendencias..</p> <br>
 			<p><a href="#" class="buton-tienda">Visitar</a></p>
 		  </div>
 		</div>
 	  </div>
-	  <div class="col-sm-6 col-md-4">
+	  <div class="col-sm-6 col-md-3">
 		<div class="img-responsive ">
 		  <img class="img-categ" src="images/salon.png" alt="...">
 		  <div class="caption">
 			<h3 class="titulo-tiendas"><strong>COSMETICS</strong></h3> <br>
-			<p class="texto-tiendas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam tenetur adipisci ut tempora optio dolore? Dicta dignissimos mollitia voluptatem, maiores corrupti</p> <br>
+			<p class="texto-tiendas">Wabi Sabi Cosmetics es una marca que despierta pasión en los amantes de la belleza, debido a que pone a disposición los productos y la asesoría para llevar su belleza a otro nivel.</p> <br>br
 			<p><a href="#" class="buton-tienda">Visitar</a></p>
 		  </div>
 		</div>
