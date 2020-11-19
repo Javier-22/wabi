@@ -112,7 +112,7 @@
                                     <img src="images/barber3.jpg" alt="">
                             </div>
                             <div class="nombre">
-                                <h3>andres coronado</h3>
+                                <h3>Juan Romero</h3>
                             </div> 
                             <div class="comentario">
                                 <p>Barber</p>
@@ -365,7 +365,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
+                        </div>
 
                     </div>
 
@@ -375,7 +375,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
+                        </div>
 
                     </div>
 
@@ -385,8 +385,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
-
+                        </div>
                     </div>
 
 
@@ -396,7 +395,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
+                        </div>
 
                     </div>
 
@@ -416,7 +415,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
+                        </div>
 
                     </div>
 
@@ -426,7 +425,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
+                        </div>
 
                     </div>
 
@@ -436,7 +435,7 @@
                             <div class="overlay">
                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
-                        </div>				    
+                        </div>
 
                     </div>
 
@@ -445,26 +444,17 @@
 
             </div>
      </div>
-    <!-- Galeria-->
-
-    
     <!-- Contacto -->
     <section class="cita" id="cita">
-        <div class="datos parallax">				
+        <div class="datos parallax">
             <div class="container">
 
-                
 
                 <div class="formulario">
-
-
                         <div class="titulo-seccion">
                     <i class="fa fa-scissors"></i>
                     <h2> ¡Agenda tu cita! </h2>
                 </div>
-
-
-
                         <form action="" class="formulario_contacto" name="formulario_contacto">
                             <div>
                                 <div class="input-group">
@@ -479,7 +469,7 @@
 
                                 <div class="input-group">
                                     <input class="fecha" name="fecha" type="date"  value=""
-                                         min="2020-01-01" max="2028-12-31" >										
+                                         min="2020-01-01" max="2028-12-31" >
                                 </div>
 
                                 <div class="input-group">
@@ -540,14 +530,14 @@
 
               </div>
     </section>
+    <script src="js/slider.js"></script>
+<script src="js/bgParallax.js"></script>
+<script src="js/formulario.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/menuMovil.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/tabs.js"></script>
 
 
 </section> <!-- Main -->
-
-
-
-
-
-
-
 @endsection

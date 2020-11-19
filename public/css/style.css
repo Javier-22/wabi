@@ -1,5 +1,3 @@
-
-
 html,
 body {
     font-size: 100%;
@@ -5407,33 +5405,35 @@ td.invert-image a img {
     padding-top: 25px;
 }
 
-
 .img-categ {
     height: 50%;
     max-width: 100%;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
-.titulo-tiendas{
+
+.titulo-tiendas {
     text-align: center;
 }
-.buton-tienda{
+
+.buton-tienda {
     text-align: center;
     display: block;
     font-size: 18px;
     border: 1px solid #00a98f;
-    border-radius: 25px;
-    line-height: 36px;  
+    /* border-radius: 25px; */
+    line-height: 36px;
     font-weight: 700;
     text-decoration: none;
 }
 
-.buton-tienda:hover{
+.buton-tienda:hover {
     color: #00a98f;
     text-decoration: none;
     background: #FFE5D5;
-} 
-.texto-tiendas{
+}
+
+.texto-tiendas {
     text-align: justify;
     font-family: cursive;
     font-size: 15px;

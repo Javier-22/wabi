@@ -5,10 +5,4 @@
 <link rel="stylesheet" href="css/estilos.css">
 
 
-<script src="js/slider.js"></script>
-<script src="js/bgParallax.js"></script>
-<script src="js/formulario.js"></script>
-<script src="js/lightbox.js"></script>
-<script src="js/menuMovil.js"></script>
-<script src="js/scroll.js"></script>
-<script src="js/tabs.js"></script>
+
